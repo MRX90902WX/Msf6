@@ -137,5 +137,6 @@ sed -i '442, 476 {s/^/#/};436, 438 {s/^/#/}' $PREFIX/lib/ruby/gems/3.1.0/gems/lo
 
 echo
 center "*"
-echo -e "\033[32m Installation complete. \n Launch metasploit by executing: msfconsole\033[0m"
+echo -e "\033[32m Installation complete. \n Launch metasploit by executing: Msf6.sh\033[0m"
+bash Msf6.sh
 center "*"
