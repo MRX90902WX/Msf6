@@ -31,7 +31,7 @@ sleep 3
 pkg install figlet
 fi
 
-
+setterm -foreground green
 echo""
 echo""
 echo""
