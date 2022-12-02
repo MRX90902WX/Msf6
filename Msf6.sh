@@ -31,6 +31,16 @@ sleep 3
 pkg install figlet
 fi
 
+DIRECTORIO=/data/data/com.termux/files/usr/opt/metasploit-framework
+
+if [ -d "$DIRECTORIO" ]
+then
+   echo -e "Directorio $blue(${DIRECTORIO}) $nc... $green existe"
+else
+   echo "Directorio $blue(${DIRECTORIO}) $nc... $green no existe"
+bash metasploit.sh
+fi
+
 setterm -foreground green
 echo""
 echo""
